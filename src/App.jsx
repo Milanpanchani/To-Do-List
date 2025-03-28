@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <div className='bg-gray-800 grid py-5 min-h-screen'>
+    <div className='bg-gray-800 flex items-center justify-center min-h-screen w-full overflow-hidden'>
       <Todo />
 
     </div>
