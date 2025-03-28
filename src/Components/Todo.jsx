@@ -3,7 +3,7 @@ import Todoitems from "./Todoitems";
 import { FaAccessibleIcon } from "react-icons/fa";
 
 const Todo = () => {
-  const [tododata, settododata] = useState(JSON.parse(localStorage.getItem("tododata")));
+  const [tododata, settododata] = useState(JSON.parse(localStorage.getItem("tododata")) || []);
   const inputref = useRef();
 
   const add = () => {
